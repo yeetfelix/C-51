@@ -1,0 +1,38 @@
+.header{
+    background-color: cornflowerblue;
+    display:flex;
+    justify-content: space-between;
+    border : 10px solid ; 
+    border-image: url(flower.jpg) 20 round ;
+    position:relative;
+    animation : colorchange 10s infinite;
+  
+}
+@keyframes colorchange {
+    0% { background-color:wheat;}
+    20% {background-color:salmon;}
+    40% {background-color:plum;}
+    60% {background-color:skyblue;}
+    80% {background-color:royalblue;}
+    100% {background-color:gold;}
+}
+.menu{
+    color: #070;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h1 {
+    color:rgba(0, 0, 0, 0.726);
+    position:relative;
+    animation : spacechange 10s  infinite ;
+   
+}
+@keyframes spacechange {
+    0% {left:0%;}
+    100% {left:50%;}
+}
